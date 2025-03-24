@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Delights Bakery</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5e1;
+        }
+
+        /* Header */
+        header {
+            background-color: #d2691e;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            background: url('https://images.app.goo.gl/5YwLLbaBBNV9sTiu5') center/cover;
+            padding: 50px 20px;
+            color: white;
+        }
+
+        /* Specials Section */
+        .specials {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background: #ffe4b5;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #d2691e;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #a0522d;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #d2691e;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sweet Delights Bakery</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Freshly Baked, Just for You!</h2>
+        <p>Delicious pastries, breads, and cakes made daily.</p>
+    </section>
+
+    <section class="specials">
+        <h2>Today's Special</h2>
+        <p id="special-offer">Loading...</p>
+        <button id="get-offer">Get Offer</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sweet Delights Bakery</p>
+    </footer>
+
+    <script src="bread.js"></script>
+</body>
+</html>
